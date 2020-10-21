@@ -9,7 +9,7 @@ This repository is the official implementation of [Partially view-aligned cluste
 To install requirements:
 
 ```
-conda env create -f pvc.yaml
+conda env create -f pvc.yml
 ```
 
 

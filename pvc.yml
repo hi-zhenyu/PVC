@@ -153,5 +153,4 @@ dependencies:
     - websocket-client==0.57.0
     - werkzeug==0.16.0
     - yacs==0.1.6
-prefix: /home/andy/anaconda3/envs/pvc
 
