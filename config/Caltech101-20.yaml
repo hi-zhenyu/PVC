@@ -1,0 +1,21 @@
+data_name: Caltech101-20
+view_size: 2
+seed: 123
+
+lambda: 10
+
+# ae
+
+lr: 0.001
+epoch: 200
+ae_epochs: 2000
+pretrain_epoch: 2000
+batch_size: 128
+arch: 
+  - 1024
+  - 1024
+  - 20
+
+aligned_ratio: 0.5
+
+use_binary: False
