@@ -92,7 +92,7 @@ def metric(y_true, y_pred, n_clusters, verbose=True, decimals = 4):
     f_score = float(np.round(f_score, decimals))
     
     if verbose:
-        print('ACC', accuracy, 'NMI:', nmi, 'F-mea:', f_score)
+        print('ACC:', accuracy, 'NMI:', nmi, 'F-mea:', f_score)
     return dict({'ACC': accuracy, 'NMI': nmi, 'F-mea':f_score})
 
 
