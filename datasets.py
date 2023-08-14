@@ -22,7 +22,7 @@ def load_data(params, split=True):
         y1 = np.squeeze(mat['Y']).astype('int')
         
         x2 = mat['X2']
-        x2 = utils.normalize(x1).astype('float32')
+        x2 = utils.normalize(x2).astype('float32')
         y2 = np.squeeze(mat['Y']).astype('int')
         
         X_list = [x1, x2]
